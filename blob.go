@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"bytes"
 	"context"
+	"github.com/aaronland/gocloud-blob-bucket"	
 	"github.com/whosonfirst/go-cache"
 	"gocloud.dev/blob"
 	"io"
@@ -25,7 +26,7 @@ func NewBlobCacheWithDSN(bucket_dsn string) (cache.Cache, error) {
 
 	ctx := context.Background()
 
-	bucket, err := blob.OpenBucket(ctx, bucket_dsn)
+	bucket, err := bucket.OpenBucket(ctx, bucket_dsn)
 
 	if err != nil {
 		return nil, err
