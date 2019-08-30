@@ -8,3 +8,4 @@ Work in progress.
 
 * https://github.com/whosonfirst/go-cache
 * https://godoc.org/gocloud.dev/blob
+* https://github.com/aaronland/gocloud-blob-bucket
