@@ -1,4 +1,4 @@
-module github.com/aaronland/go-cache-blob
+module github.com/whosonfirst/go-cache-blob
 
 go 1.12
 
