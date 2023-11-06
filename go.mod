@@ -15,9 +15,9 @@ require (
 	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/net v0.13.0 // indirect
-	golang.org/x/sys v0.10.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/api v0.134.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230731193218-e0aa005b6bdf // indirect
